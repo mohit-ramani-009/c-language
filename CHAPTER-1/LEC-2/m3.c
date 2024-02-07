@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main()
+main()
 {
 	printf("*\n");
 	printf("**\n");

@@ -1,6 +1,4 @@
-#include<stdio.h>
-#include<conio.h>
-
+#include<stdio.h>	
 main()
 {
 	int a=12;
