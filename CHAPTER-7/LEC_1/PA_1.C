@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<conio.h>
+#define m printf
+#define d scanf
+
+main()
+{
+
+	int rows=5;
+	int i,a;
+	clrscr();
+
+	for(i=1; i<= rows; i++)
+	{
+		for(a=i; a>=1; a--)
+		{
+			m("%d ",a);
+		}
+		m("\n");
+	}
+
+
+	getch();
+
+}
