@@ -1,17 +1,20 @@
 #include<stdio.h>
+#define m printf
+#define b scanf
+
 main()
 {
 		
 	int i;
 	float n,a[100],c=1,d=1;
 	
-	printf("Enter the size of array=");
-	scanf("%f",&n);
+	m("Enter the size of array=");
+	b("%f",&n);
 	
 	for(i=0;i<n;i++)
 	{
-		printf("a[%d]=",i);
-		scanf("%f",&a[i]);
+		m("a[%d]=",i);
+		b("%f",&a[i]);
 	}
 	
 	for(i=0;i<n;i++)
@@ -23,7 +26,7 @@ main()
 	{
 		d=c/n;
 	}
-	printf("average of Array=%.2f",d);
+	m("average of Array=%.2f",d);
 
 }
 
