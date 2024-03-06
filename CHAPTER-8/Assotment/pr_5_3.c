@@ -1,6 +1,7 @@
 #include<stdio.h>
 #define m printf
 #define d scanf	
+
 main()
 {
 	int i,j,n,a[100][100],b[100][100];

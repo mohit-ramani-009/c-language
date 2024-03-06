@@ -4,26 +4,26 @@
 	
 main()
 {
-	int i,j,r,c,a[100][100];
+	int i,j,row,cols,a[100][100];
 
 	m("Enter the array's row size=");
-	d("%d",&r);
+	d("%d",&row);
 	
 	m("Enter the array's column size=");
-	d("%d",&c);
+	d("%d",&cols);
 	
-	for(i=0;i<r;i++)
+	for(i=0;i<row;i++)
 	{
-		for(j=0;j<c;j++)
+		for(j=0;j<cols;j++)
 		{
 			m("a[%d][%d]=",i,j);
 			d("%d",&a[i][j]);
 		}
 	}
 	
-	for(i=0;i<r;i++)
+	for(i=0;i<row;i++)
 	{
-		for(j=0;j<c;j++)
+		for(j=0;j<cols;j++)
 		{
 			if(a[0][0]<a[i][j])
 			{
