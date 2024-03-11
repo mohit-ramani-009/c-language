@@ -3,8 +3,7 @@
 #define d scanf
 
 main()
-{
-	
+{	
 	char string[100];
 	int i;
 	int length=0;
@@ -23,14 +22,15 @@ main()
 			b=1;
 		}
 	}
+	
 	if(b==0)
 	{
-		printf("\n\nThe sring is palindrome..");
+		printf("\n\nThe sring is palindrome...");
 	}
+	
 	else
 	{
-		printf("\n\nThe string is not palindrome..");
+		printf("\n\nThe string is not palindrome...");
 	}
-
 }
 

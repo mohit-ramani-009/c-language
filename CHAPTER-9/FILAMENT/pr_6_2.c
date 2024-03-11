@@ -5,7 +5,7 @@
 main()
 {
 	char string[100];
-	int frequency[128]={0};
+	int frequency[100]={0};
 	
 	m("enter any string:- ");
 	gets(string);
@@ -20,7 +20,7 @@ main()
 	
 	m("freqrncy of latter:\n");
 	
-	for(i=0;i<128;i++)
+	for(i=0;i<100;i++)
 	{
 		if(frequency[i]!=0) 
 		{
