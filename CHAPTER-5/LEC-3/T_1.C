@@ -4,7 +4,6 @@
 main()
 {
 	int choice,sel;
-	clrscr();
 
 	printf("Press 1 for English...\n");
 
@@ -102,5 +101,4 @@ main()
 			}
 		break;
 	}
-	getch();
 }
