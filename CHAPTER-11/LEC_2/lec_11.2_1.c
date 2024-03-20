@@ -29,18 +29,18 @@ void main()
     
     m("Enter the array elements: \n");
     
-    for (i = 0; i < size; i++) 
+    for (i = 0;i < size;i++) 
 	{
         m("a[%d] = ", i);
         d("%d", &array[i]);
     }
     
-    ReverseArray(array, size);
+    ReverseArray(array,size);
     
     m("Reversed array elements: \n");
-    for (i = 0; i < size; i++) 
+    for (i = 0;i < size;i++) 
 	{
-        m("%d ", array[i]); 
+        m("%d ",array[i]); 
     }
 }
 
